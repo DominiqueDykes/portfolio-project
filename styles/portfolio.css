@@ -1,11 +1,9 @@
 h1 {
   font-family: "Oswald", sans-serif;
   font-size: 96px;
+  margin-bottom: 20px;
 }
 
-p {
-  font-family: "Libre Franklin", sans-serif;
-}
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
@@ -13,10 +11,21 @@ p {
 }
 
 body {
-  margin-top: 100px;
-  background: rgba(240, 238, 217, 0.83);
+  margin-top: 55px;
+  background: white;
 }
 
+.beginner {
+  background: #f9f7fe;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.beginner h3 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+}
 h1,
 h2,
 h3 {
@@ -28,13 +37,14 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 20px;
   opacity: 0.7;
 }
 
 p {
   font-size: 18px;
   line-height: 1.5;
+  font-family: "Libre Franklin", sans-serif;
 }
 
 .navigation-links {
