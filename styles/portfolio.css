@@ -26,6 +26,43 @@ body {
   font-weight: normal;
   font-size: 24px;
 }
+
+.about-section {
+  padding: 0;
+  text-align: center;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section p {
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px;
+}
+
+.about-section h3 {
+  line-height: 2;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: rgb(5, 7, 133);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+}
+
 h1,
 h2,
 h3 {
@@ -86,14 +123,6 @@ p {
   display: block;
 }
 
-.about-paragraphs {
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  margin: 10px;
-}
-
 .email-link {
   display: flex;
   justify-content: center;
@@ -109,6 +138,7 @@ p {
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
+    line-height: 56px;
   }
 
   h2 {
