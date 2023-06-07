@@ -5,7 +5,7 @@ h1 {
 }
 
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #fe31f4;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -16,7 +16,7 @@ body {
 }
 
 .beginner {
-  background: #f9f7fe;
+  background: #fdeafd;
   text-align: center;
   padding: 60px 20px;
 }
@@ -198,7 +198,7 @@ footer a {
 }
 
 footer .contact-box {
-  background: var(--secondary-color);
+  background: #f3c5f1;
   padding: 30px 120px;
   border-radius: 10px;
 }
