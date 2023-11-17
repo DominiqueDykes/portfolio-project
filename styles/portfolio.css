@@ -50,6 +50,20 @@ body {
 .about-section-content {
   margin: 30px;
 }
+
+.about-certification {
+  display: flex;
+  flex-direction: row; /* Set the direction to row */
+  justify-content: space-between;
+  margin: 20px; /* Adjust the margin as needed */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+/* Add custom styles for the image containers */
+.image-container {
+  flex-basis: 24%; /* Set the width of each image container */
+  margin-bottom: 20px; /* Adjust the margin as needed */
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
